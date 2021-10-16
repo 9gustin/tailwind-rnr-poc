@@ -3,14 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-h2 {
-  @apply text-2xl; /* Applying our text-2xl rule on the h1 */
-  @apply font-bold;
-  @apply text-primary; /* We can even apply our custom classes! */
-
-  font-family: monospace; /* And we can mix with regular CSS */
-}
-
 * {
-  @apply text-green-50;
+  @apply bg-black;
+  @apply text-purple-600;
 }
